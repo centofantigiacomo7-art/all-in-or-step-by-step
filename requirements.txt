@@ -1,0 +1,7 @@
+streamlit>=1.40
+plotly>=5
+numpy
+pandas
+scipy
+pytest
+yfinance

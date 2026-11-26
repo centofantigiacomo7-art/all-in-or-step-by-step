@@ -1,0 +1,57 @@
+{
+  "CHSPI.csv": {
+    "provider": "Yahoo Finance (via yfinance)",
+    "ticker": "CHSPI.SW",
+    "url": "https://finance.yahoo.com/quote/CHSPI.SW/history",
+    "retrieved_utc": "2026-11-06T12:21:33+00:00",
+    "first_date": "2014-04-28",
+    "last_date": "2026-11-06",
+    "rows": 3148,
+    "currency": "CHF",
+    "fields_used": "Adj Close (prix ajusté des dividendes et splits)"
+  },
+  "CSBGC7.csv": {
+    "provider": "Yahoo Finance (via yfinance)",
+    "ticker": "CSBGC7.SW",
+    "url": "https://finance.yahoo.com/quote/CSBGC7.SW/history",
+    "retrieved_utc": "2026-11-06T12:21:33+00:00",
+    "first_date": "2010-01-04",
+    "last_date": "2026-11-06",
+    "rows": 4234,
+    "currency": "CHF",
+    "fields_used": "Adj Close (prix ajusté des dividendes et splits)"
+  },
+  "ETF_MONDE.csv": {
+    "provider": "Yahoo Finance (via yfinance)",
+    "ticker": "SWDA.SW",
+    "url": "https://finance.yahoo.com/quote/SWDA.SW/history",
+    "retrieved_utc": "2026-11-06T12:21:34+00:00",
+    "first_date": "2010-01-04",
+    "last_date": "2026-11-06",
+    "rows": 4233,
+    "currency": "USD",
+    "fields_used": "Adj Close (prix ajusté des dividendes et splits)"
+  },
+  "USDCHF.csv": {
+    "provider": "Yahoo Finance (via yfinance)",
+    "ticker": "CHF=X",
+    "url": "https://finance.yahoo.com/quote/CHF=X/history",
+    "retrieved_utc": "2026-11-06T12:21:35+00:00",
+    "first_date": "2010-01-01",
+    "last_date": "2026-11-06",
+    "rows": 4383,
+    "currency": "CHF",
+    "fields_used": "Close (CHF pour 1 USD)"
+  },
+  "SARON.csv": {
+    "provider": "Swiss National Bank (SNB data portal), cube zimoma 'Money market rates'",
+    "ticker": "SARON (column D0 = SARON)",
+    "url": "https://data.snb.ch/api/cube/zimoma/data/csv/en",
+    "retrieved_utc": "2026-11-02T13:30:00+00:00 (SNB publishing date 2026-11-02 14:30, downloaded by the user)",
+    "first_date": "1999-06-30",
+    "last_date": "2026-10-31",
+    "rows": 329,
+    "currency": "% per year",
+    "fields_used": "Value (monthly SARON, % per year), other series in the file ignored"
+  }
+}
